@@ -1,0 +1,467 @@
+# Copyright (C) 2023 Nmeri Media
+# This file is distributed under the same license as the NM Gift Registry and Wishlist - Crowdfunding plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: NM Gift Registry and Wishlist - Crowdfunding 3.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/nm-gift-registry-crowdfunding-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-13T16:15:49+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: nm-gift-registry-crowdfunding-lite\n"
+
+#. Plugin Name of the plugin
+msgid "NM Gift Registry and Wishlist - Crowdfunding"
+msgstr ""
+
+#. Description of the plugin
+msgid "Allows items in a wishlist or gift registry to be crowdfunded and funded via free contributions. Adds coupon features to the wishlist. <a href=\"https://nmerimedia.com/product-category/plugins/\" target=\"_blank\">See more plugins&hellip;</a>"
+msgstr ""
+
+#. Author of the plugin
+msgid "Nmeri Media"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://nmerimedia.com"
+msgstr ""
+
+#: includes/class-nmgrcf-add-to-wishlist.php:28
+msgid "Mark as a crowdfunded item"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-add-to-wishlist.php:31
+msgid "This item is crowdfunded in this %s"
+msgstr ""
+
+#: includes/class-nmgrcf-add-to-wishlist.php:36
+#: includes/functions.php:664
+msgid "This item already has crowdfund contributions and so cannot be uncrowdfunded."
+msgstr ""
+
+#: includes/class-nmgrcf-add-to-wishlist.php:108
+#: includes/class-nmgrcf-item-table.php:241
+msgid "Minimum amount that should be contributed to this item."
+msgstr ""
+
+#: includes/class-nmgrcf-add-to-wishlist.php:117
+#: includes/class-nmgrcf-item-table.php:253
+msgid "Minimum contribution (optional)"
+msgstr ""
+
+#. translators: %s: pro version link
+#: includes/class-nmgrcf-admin.php:26
+msgid "This free plugin is no longer being maintained and has been removed from the WordPress repository. Please <a href=\"%s\" target=\"_blank\">buy the pro version</a> to continue receiving updates and support."
+msgstr ""
+
+#: includes/class-nmgrcf-admin.php:100
+msgid "Crowdfunds"
+msgstr ""
+
+#: includes/class-nmgrcf-admin.php:109
+msgid "Free Contributions"
+msgstr ""
+
+#: includes/class-nmgrcf-admin.php:117
+msgid "Wallet"
+msgstr ""
+
+#: includes/class-nmgrcf-admin.php:156
+msgid "Allow contributors to send money to your wallet directly without attaching it to a product."
+msgstr ""
+
+#: includes/class-nmgrcf-admin.php:165
+msgid "Enable free contributions"
+msgstr ""
+
+#: includes/class-nmgrcf-cart-crowdfund.php:76
+msgid "The product to be crowdfunded could not be created."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-cart-crowdfund.php:97
+msgid "The product to be crowdfunded does not exist in this %s."
+msgstr ""
+
+#: includes/class-nmgrcf-cart-crowdfund.php:107
+msgid "The product to be crowdfunded does not exist."
+msgstr ""
+
+#: includes/class-nmgrcf-cart-crowdfund.php:120
+msgid "Please enter a valid contribution amount for the item."
+msgstr ""
+
+#. translators: 1: minimum contribution amount, 2: product name
+#: includes/class-nmgrcf-cart-crowdfund.php:143
+msgid "Please contribute a minimum of %1$s for &ldquo;%2$s&rdquo;."
+msgstr ""
+
+#. translators: 1: product name, 2: amount contributed, 3: amount needed
+#: includes/class-nmgrcf-cart-crowdfund.php:155
+msgid "The amount contributed for &ldquo;%1$s&rdquo; (%2$s) is greater than the amount needed (%3$s). Please adjust the amount."
+msgstr ""
+
+#. translators: 1: amount contributed, 2: product name, 3: amount in cart
+#: includes/class-nmgrcf-cart-crowdfund.php:170
+msgid "You cannot contribute another %1$s for &ldquo;%2$s&rdquo; as you already have %3$s in the cart for the item."
+msgstr ""
+
+#. translators: %s: amount needed
+#: includes/class-nmgrcf-cart-crowdfund.php:179
+msgid "Please contribute a maximum of %s."
+msgstr ""
+
+#: includes/class-nmgrcf-cart-crowdfund.php:185
+msgid "Please remove the contribution in the cart and make a new contribution if necessary."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-cart-crowdfund.php:335
+msgid "You are partly buying this item for this %s"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-cart-crowdfund.php:341
+msgid "For %s"
+msgstr ""
+
+#. translators: 1: contribution amount, 2: product name
+#: includes/class-nmgrcf-cart-crowdfund.php:403
+msgid "A total contribution of %1$s for &ldquo;%2$s&rdquo; has been added to your cart."
+msgstr ""
+
+#. translators: 1: contribution amount, 2: product name
+#: includes/class-nmgrcf-cart-crowdfund.php:410
+msgid "A contribution of %1$s for &ldquo;%2$s&rdquo; has been added to your cart."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:37
+#: includes/class-nmgrcf-item-table.php:131
+msgid "Crowdfunded"
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:78
+msgid "The crowdfunded status of some of the selected items count not be changed as they were ineligible."
+msgstr ""
+
+#. translators: %s: amount received
+#: includes/class-nmgrcf-item-table.php:142
+#: templates/add-to-cart.php:18
+msgid "%s received already!"
+msgstr ""
+
+#. translators: %s: amount received
+#: includes/class-nmgrcf-item-table.php:148
+msgid "%s received."
+msgstr ""
+
+#. translators: %s: amount still needed
+#: includes/class-nmgrcf-item-table.php:155
+msgid "%s still needed."
+msgstr ""
+
+#. translators: 1: amount received, 2: amount needed
+#: includes/class-nmgrcf-item-table.php:161
+#: templates/add-to-cart.php:39
+msgid "%1$s of %2$s received."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:203
+msgid "Not crowdfunded"
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:272
+msgid "Please move the item's crowdfunded contributions to the wallet before deletion if applicable to prevent them from being lost. Click OK to delete anyway."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:277
+msgid "This would also delete the item's crowdfunded contributions."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:288
+msgid "Please move the item's purchased amount to the wallet before deletion to prevent it from being lost. Click OK to delete anyway."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-item-table.php:325
+msgid "Congratulations, you have received enough money to fulfill all the items in  your %s. Contributions are now disabled for all crowdfunded items and maybe for normal items if applicable. However you can make wallet transfers if necessary."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:362
+msgid "Normal amount still needed"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-item-table.php:365
+msgid "This is the amount still needed to completely fulfill all the normal (non-crowdfunded) items in the %s."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:376
+msgid "Crowdfund amount still needed"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-item-table.php:379
+msgid "This is the amount still needed to completely fulfill all the crowdfunded items in the %s."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:389
+msgid "Total amount needed"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-item-table.php:392
+msgid "This is the amount left to be received for all the items in your %s to make it fulfilled."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:403
+msgid "Total amount received"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-item-table.php:406
+msgid "This is the amount you have already received for all the items in your %s. It shows the progress of your campaign and helps determine its fulfillment."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:418
+#: includes/functions.php:422
+msgid "Amount in wallet"
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:421
+msgid "This is the amount you currently have in your wallet that can be used to fund items. It is not currently part of the money received for any item."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:440
+msgid "Toggle crowdfund status"
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:460
+msgid "Send received amount to wallet"
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:474
+msgid "If you send the amount received for this item to the wallet, contributions or purchases would be disabled for the item and it can only be funded from the wallet. Are you sure you want to continue?"
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:480
+msgid "Fund from wallet"
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:494
+msgid "Are you sure you want to fund this item from the wallet? Please note that contributions or purchases would be disabled for the item and it can only be funded from the wallet in the future."
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:504
+msgid "Crowdfund"
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:507
+msgid "No"
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:510
+msgid "Yes"
+msgstr ""
+
+#: includes/class-nmgrcf-item-table.php:551
+msgid "This item can only be funded from the wallet. Checkout purchases are disabled for it."
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-order-crowdfund.php:193
+msgid "This contribution is made for an item in this %s"
+msgstr ""
+
+#. translators: %s: wishlist type title
+#: includes/class-nmgrcf-order-crowdfund.php:202
+msgid "For %s: "
+msgstr ""
+
+#: includes/class-nmgrcf-settings.php:51
+msgid "Crowdfunding"
+msgstr ""
+
+#: includes/class-nmgrcf-settings.php:66
+msgid "Enable crowdfunding"
+msgstr ""
+
+#: includes/class-nmgrcf-settings.php:71
+msgid "Allow wishlist items to be crowdfunded"
+msgstr ""
+
+#: includes/class-nmgrcf.php:281
+msgctxt "Product post status"
+msgid "NM Gift Registry crowdfunded"
+msgstr ""
+
+#. translators: %s: number of items
+#: includes/class-nmgrcf.php:285
+msgid "NM Gift Registry crowdfunded <span class=\"count\">(%s)</span>"
+msgid_plural "NM Gift Registry crowdfunded <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-nmgrcf.php:328
+msgid "This plugin requires the NM Gift Registry and Wishlist plugin to be activated for it to run."
+msgstr ""
+
+#: includes/class-nmgrcf.php:334
+msgid "Not active *"
+msgstr ""
+
+#: includes/class-nmgrcf.php:420
+msgid "Settings"
+msgstr ""
+
+#: includes/class-nmgrcf.php:431
+msgid "Docs"
+msgstr ""
+
+#: includes/class-nmgrcf.php:437
+msgid "Get PRO"
+msgstr ""
+
+#. translators : 1,3 wishlist type title, 2: pro version link
+#: includes/class-nmgrcf.php:470
+msgid "This free version of the plugin only works with %1$s versions <strong>less than 4.0.0</strong>. <a href=\"%2$s\" target=\"_blank\">Please upgrade to the pro version</a> to work with %3$s versions <strong>from 4.0.0</strong>."
+msgstr ""
+
+#: includes/class-nmgrcf.php:490
+msgid "The lite version of the plugin has been deactivated as the pro version is active."
+msgstr ""
+
+#. translators: 1: plugin name, 2: NM Gift Registry plugin name, 3: required NM Gift Registry version, 4: current NM Gift Registry version
+#: includes/class-nmgrcf.php:503
+msgid "%1$s needs %2$s %3$s or higher to work. You have version %4$s. Please update it."
+msgstr ""
+
+#. translators: %s: plugin name
+#: includes/class-nmgrcf.php:531
+msgid "%s deactivated"
+msgstr ""
+
+#: includes/functions.php:38
+#: includes/functions.php:295
+#: includes/functions.php:449
+msgid "Amount"
+msgstr ""
+
+#: includes/functions.php:157
+msgid "Crowdfund Contribution"
+msgstr ""
+
+#: includes/functions.php:182
+msgid "Free contributions settings"
+msgstr ""
+
+#: includes/functions.php:205
+msgid "Contribute"
+msgstr ""
+
+#: includes/functions.php:222
+msgid "Contribution"
+msgstr ""
+
+#. translators: %s: wishlist title
+#: includes/functions.php:250
+msgid "Free Contribution - %s"
+msgstr ""
+
+#: includes/functions.php:286
+msgid "Contributor"
+msgstr ""
+
+#: includes/functions.php:289
+msgid "Order"
+msgstr ""
+
+#: includes/functions.php:292
+msgid "Date contributed"
+msgstr ""
+
+#: includes/functions.php:384
+msgid "Send free contributions to wallet"
+msgstr ""
+
+#: includes/functions.php:389
+msgid "Send"
+msgstr ""
+
+#: includes/functions.php:399
+msgid "Are you sure you want to credit the wallet with the amount?"
+msgstr ""
+
+#: includes/functions.php:446
+msgid "ID"
+msgstr ""
+
+#: includes/functions.php:452
+msgid "Transaction type"
+msgstr ""
+
+#: includes/functions.php:455
+msgid "Description"
+msgstr ""
+
+#: includes/functions.php:458
+msgid "Date"
+msgstr ""
+
+#: includes/functions.php:466
+msgid "Wallet log"
+msgstr ""
+
+#: includes/functions.php:531
+msgid "View log"
+msgstr ""
+
+#: includes/functions.php:549
+msgid "View wallet"
+msgstr ""
+
+#: includes/functions.php:583
+msgid "Resetting the wallet would set the amount in the wallet to zero. Any amount previously available would be lost. Are you sure you want to continue?"
+msgstr ""
+
+#: includes/functions.php:590
+msgid "Reset wallet"
+msgstr ""
+
+#: includes/functions.php:609
+msgid "Create a coupon to offer discounts on the remaining wishlist items which have not yet been fulfilled."
+msgstr ""
+
+#: includes/functions.php:614
+msgid "Create a coupon from the amount in the wallet that can be used on normal wishlist items."
+msgstr ""
+
+#: includes/functions.php:633
+msgid "Create coupon"
+msgstr ""
+
+#: includes/functions.php:644
+msgid "Purchase disabled"
+msgstr ""
+
+#: includes/functions.php:656
+msgid "This item is already fulfilled so there is no need to change its crowdfund status."
+msgstr ""
+
+#: includes/functions.php:660
+msgid "This item already has purchases and so cannot be crowdfunded."
+msgstr ""
+
+#. translators: %s: amount still needed
+#: templates/add-to-cart.php:30
+msgid "%s still needed"
+msgstr ""
+
+#: templates/add-to-cart.php:90
+msgid "Contribute an amount to the cost of this item"
+msgstr ""

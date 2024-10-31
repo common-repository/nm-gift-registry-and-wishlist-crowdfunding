@@ -1,0 +1,96 @@
+== Changelog ==
+
+= 3.0.1 =
+* Added notices to close plugin on WordPress.org repository.
+
+= 3.0.0 =
+* Improvement - Add to wishlist user experience.
+* Improvement - Wishlist item table user interface actions.
+* Improvement - Plugin error and success notifications display as toasts instead of woocommerce notices.
+* Improvement - Optimized javascript code.
+* Improvement - Optimized php code.
+* Tweak - Bootstrap 5 components used for plugin modules.
+
+= 2.5.1 =
+* Fix - E_PARSE error during plugin activation.
+
+= 2.5 =
+* Fix - Bug causing crowdfunded items and free contributions to be added to the cart as items from a separate wishlist.
+* Improvement - General plugin code.
+
+= 2.4 =
+* Fix - minor bugs
+
+= 2.3 =
+* Dev - Replaced deprecated hooks to be compatible with NM Gift Registry and Wishlist 2.4.
+* Feature - Compatible with grid view on wishlist items template.
+
+= 2.2.2 =
+* IMPORTANT - Changed update server url from nmgiftregistry.com to nmerimedia.com.
+
+= 2.2.1 =
+* Fix - Fatal error getting free contributions reference when wishlist doesn't exist.
+
+= 2.2.0 =
+* Fix - 'View wallet' button now shows on items table for normal wishlist items.
+* Dev - Deprecated multiple functions.
+* Dev - Improved api for managing crowdfund and free contributions modules.
+* Tweak - Crowdfunded items which have contributions cannot be uncrowdfunded and normal items which have purchases cannot be crowdfunded.
+* Dev - Replaced 'nmgrcf_credited_to_wallet' and 'nmgrcf_debited_to_wallet' string meta_keys with 'nmgrcf_credits_to_wallet' and 'nmgrcf_debits_from_wallet' array keys respectively.
+
+= 2.1.1 =
+* Fix - Bug showing crowdfunding fulfilled icon on "transfer" button when no crowdfunded item is in the wishlist.
+* Fix - Bug preventing wallet transfer information section from showing on items table when transfer button is clicked.
+* Fix - Wallet transfer information section on items table shows relevant information.
+
+= 2.1.0 =
+* Feature - Created wallet log to enable viewing of wallet-related events.
+* Feature - Enable free contributions to fund normal wishlist items via the wallet.
+* Feature - Allow the registry owner to switch one purchased product with another one via the wallet.
+* Tweak - Free and crowdfund contributions are added to the cart without tax.
+
+= 2.0.7 =
+* Fix - Crowdfunds and free contributions templates don't show properly for new wishlists.
+
+= 2.0.6 =
+* Feature - Added shortcodes for displaying crowdfunds and free contributions templates.
+
+= 2.0.5 =
+* Dev - Added ability for wishlist owners to create coupons on the frontend.
+
+= 2.0.4 =
+* Improvement - Coupons from wallet can be created from any amount in wallet.
+* Feature - Wishlist owner can enable free contributions from frontend.
+* Tweak - Free contributions are enabled for all wishlists by default except explicitly disabled.
+
+= 2.0.3 =
+* Dev - create/delete coupon functions not connected to wishlist items table.
+* Design - Set default placeholder svg icon for free contributions template.
+* Feature - Email wishlist owner when a free contribution has been made.
+* Feature - Email wishlist owner when a free contribution has been refunded.
+* Design - Show images for cart items and order items for crowdfund and free contributions.
+
+
+= 2.0.2 =
+* Fix - Error preventing product from adding to wishlist when crowdfunding is enabled.
+* Fix - Ability to properly switch on/off crowdfunding and free contributions modules.
+* Tweak - Remove wishlist shipping notice on cart page for free contributions and crowdfunds.
+* Fix - php warning when search for crowdfund plugin template in nm_gift_registry templates folder.
+
+
+= 2.0.1 =
+* Dev - changed 'nmgr' prefix in actions and filter names to 'nmgrcf'.
+* Fix - Error in displaying free contributions template when no wishlist id exists.
+* Fix - Renamed email templates to reflect new api.
+
+
+= 2.0.0 =
+* Tweak - Replaced all variation of the text "donation" with "contribution"
+* Improvement - Changed api for making wishlist items crowdfunded.
+* Improvement - Crowdfunded products can be added to the cart via http request.
+* Feature - Added ability to add free contributions to wishlist.
+
+
+= 1.0.1 =
+* Fix - Crowdfund account template now refreshes when wishlist is created.
+
